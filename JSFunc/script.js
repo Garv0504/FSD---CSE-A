@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 imageContainer.style.margin = "10px";
 
                 const img = document.createElement("img");
-                img.src = "./JSFunc/dim.png"; 
+                img.src = "./JSWork/dim.png"; 
                 img.alt = "Bulb Image";
                 img.style.height = "100px";
                 img.style.width = "50px";
@@ -43,9 +43,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 checkbox.addEventListener("change", () => {
                     if (checkbox.checked) {
-                        img.src = "./JSFunc/glow.png"; 
+                        img.src = "./JSWork/glow.png"; 
                     } else {
-                        img.src = "./JSFunc/dim.png"; 
+                        img.src = "./JSWork/dim.png"; 
                     }
                 });
 
