@@ -2,7 +2,12 @@
 import React from 'react'
 // import logo from "./assets/logo.jpg"
 // import StudentState from './StudentState'
-import ImageManipulation from './ImageManipulation'
+// import ImageManipulation from './ImageManipulation'
+// import AppProps from './AppProps/AppProps'
+// import Child3 from './AppProps/Child3'
+import AppProps from './AppProps/AppProps'
+import AppContext from './AppContext'
+// import AppContext from './AppContext'
 
 function App() {
   // let a = 12
@@ -58,7 +63,9 @@ function App() {
       </div> */}
 
       {/* <StudentState/> */}
-      <ImageManipulation />
+      {/* <ImageManipulation /> */}
+      {/* <AppProps/> */}
+      <AppContext/>
     </>
   )
 }
