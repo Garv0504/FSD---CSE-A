@@ -1,0 +1,1 @@
+Hello data from fs module appending using fs module

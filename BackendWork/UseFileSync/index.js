@@ -1,0 +1,5 @@
+const ex = require('./fileOperations.js')
+ex.dataRead()
+ex.dataWrite()
+ex.dataAppend()
+// ex.dataUnlink()
